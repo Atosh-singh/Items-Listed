@@ -37,39 +37,21 @@
 
 //GETELEMENTSBYCLASSNAME//
 
-// var items = document.getElementsByClassName("list-group-item");
-// console.log(items);
+var items = document.getElementsByClassName("list-group-item");
+console.log(items);
 
-// console.log(items[1]);
-// items[1].textContent = "New Item";
-// //items[1].style.fontWeight = "bold";
+console.log(items[1]);
+items[1].textContent = "New Item";
+//items[1].style.fontWeight = "bold";
 
-// items[3].style.backgroundColor = "lightgreen";
+items[3].style.backgroundColor = "lightgreen";
 
-// var list = document.getElementsByClassName("list-group-item");
-// console.log(list);
-// //list.style.fontWeight = "bold";
+var list = document.getElementsByClassName("list-group-item");
+console.log(list);
+//list.style.fontWeight = "bold";
 
-// for (var i = 0; i < list.length; i++) {
-//   list[i].style.fontWeight = "bold";
-// }
-
-// console.log("Learn GIt commit again");
-
-// GETELEMENTBYTAGNAME //
-
-var li = document.getElementsByTagName("li");
-console.log(li);
-console.log(li[1]);
-//li[1].textContent = "hello2";
-li[1].style.fontWeight = "bold";
-li[1].style.backgroundColor = "Yellow";
-
-// GIVES Error
-// items.style.backgroundColor = '#f4f4f4'
-
-for (var i = 0; i < li.length; i++) {
-  li[i].style.backgroundColor = "#f5f5f5";
+for (var i = 0; i < list.length; i++) {
+  list[i].style.fontWeight = "bold";
 }
 
-// QUERYSELECTOR //
+console.log("Learn GIt commit again");
